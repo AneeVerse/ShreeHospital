@@ -7,21 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <title>Shree Hospital - Hospital & Clinic HTML Template</title>
 
+    <!-- favicon -->
     <link rel="icon" href="favicon.png" sizes="20x20" type="image/png"> 
+    <!-- flaticon -->
     <link rel="stylesheet" href="assets/css/flaticon.css">
+    <!-- Fonts Awesome Icons -->
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <!-- bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- animate -->
     <link rel="stylesheet" href="assets/css/animate.css">
+    <!--Video Popup-->
     <link rel="stylesheet" href="assets/css/rpopup.min.css">     
+    <!--Slick Carousel-->
     <link rel="stylesheet" href="assets/css/slick.css"> 
+    <!--Progress bar Css-->
     <link rel="stylesheet" href="assets/css/jquery.rprogessbar.min.css">   
+    <!-- Main Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- responsive Stylesheet -->
     <link rel="stylesheet" href="assets/css/responsive.css">
       
 
 </head>
 <body>
 
+    <!-- preloader area start -->
     <div class="preloader" id="preloader">
         <div class="preloader-inner">
             <div class="spinner">
@@ -30,7 +41,9 @@
             </div>
         </div>
     </div>
+    <!-- preloader area end -->
 
+    <!--Search Popup Start Here-->
     <div class="searchOverlay">
         <div class="sidenav-wrap">
             <div class="logo-area">
@@ -39,7 +52,7 @@
                         <img src="assets/img/logo-2.png" alt="logo">
                     </a>
                 </div>
-            </div>
+            </div><!--Logo End-->
             <div class="overlay-content">
                 <span class="closebtn" title="Close Overlay">×</span>              
                 <form>
@@ -51,7 +64,9 @@
             </div>
         </div>
     </div>
+    <!--Search Popup End Here-->  
 
+    <!--Sidenav Popup Start Here-->
     <div class="sidenav">
         <div class="sidenav-wrap">
             <div class="logo-area">
@@ -60,12 +75,14 @@
                         <img src="assets/img/logo-2.png" alt="logo">
                     </a>
                 </div>
-            </div>
+            </div><!--Logo End-->
             <div class="overlay-content">
                 <span class="closebtn" title="Close Overlay">×</span>              
                 <div class="overlay-menu">
                     <ul class="side-menu">
+                        <!-- <li class="items"><a  class="itme-nav" href="#">Useful Links</a></li> -->
                         <li class="items"><a  class="itme-nav" href="#">Home</a></li>
+                        <!-- <li class="items"><a class="itme-nav" href="#">Login</a></li> -->
                         <li class="items"><a  class="itme-nav" href="#">Blog</a></li>
                         <li class="items"><a  class="itme-nav" href="#">Help Center</a></li>
                     </ul>
@@ -79,7 +96,9 @@
             </div>
         </div>
     </div>
+    <!--Sidenav Popup End Here--> 
 
+    <!--Side Form Popup Start Here-->
     <div class="side-form-popup">
         <div class="popup-wrapper">
             <div class="logo-area">
@@ -87,13 +106,16 @@
                     <img src="assets/img/logo-2.png" alt="Nav Logo">
                 </a>
             </div>
+            <!--// Popup Logo Area End-->
             <div class="opening-popup">
                 <div class="close-popup">×
+                    <!-- <i class="fas fa-times"></i> -->
                 </div>
                 <div class="row">
                     <div class="modal-image">
                         <img src="assets/img/modal/modal-03.png" alt="img">
                     </div>  
+                    <!--// Modal Image-->
                     <div class="address-area">
                         <div class="address-content">
                             <h4 class="heading-04 padding-10">Phone Number</h4>
@@ -115,10 +137,12 @@
                             
                         </div>                              
                     </div>
+                    <!--// Modal Address Area-->
                 </div>
             </div>
             <div class="location-popup">
                 <div class="close-popup">×
+                    <!-- <i class="fas fa-times"></i> -->
                 </div>
                 <div class="row">
                     <div id="google-map2">
@@ -137,12 +161,15 @@
             </div>
             <div class="form-popup">
                 <div class="close-popup">×
+                    <!-- <i class="fas fa-times"></i> -->
                 </div>
                 <div class="row">
+                    <!--Appointment Section Start Here-->
                     <div class="appointment-section  style-02">
                         <div class="container">
                             <div class="row">                
                                 <div class="col-lg-12 col-md-12">                             
+                                    <!--// Appoing Title End Here-->
                                     <div class="appointment-content">  
                                         <div class="tab-content">                                       
                                             <div class="appointment-img-area"> 
@@ -157,11 +184,50 @@
                                                 </div>  
                                             </div>
                                             <div class="appointment-form-area"> 
-                                                <div class="main-btn-wrap style-02">
-                                                    <a href="https://calendly.com/shreehospitalvashi/appointment_shree_hospital" target="_blank">
-                                                    <input class="main-btn" type="submit" value="Make Appointment">
-                                                    </a>
-                                                </div> 
+                                                <!-- <form>
+                                                    <div class="row">
+                                                        <div class="col-lg-6">
+                                                            <input type="text" name="your_name" placeholder="Your Name" class="form-control margin-15">
+                                                            <input type="email" name="your_email" placeholder="Your Email" class="form-control margin-15">                                            
+                                                            <div class="custom-select margin-15">
+                                                                <select>
+                                                                    <option>Doctor Girish Moharir</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6">
+                                                            <div class="custom-select margin-15">
+                                                                <select>   
+                                                                    <option selected>Your Gender</option>
+                                                                    <option>Male</option>
+                                                                    <option>Female</option>
+                                                                </select> 
+                                                            </div>                                                
+                                                            <div class="calendar-icon margin-15">
+                                                                <span class="calendar">
+                                                                    <label for="datepicker">
+                                                                        <input type="text" id="datepicker" class="form-control" autocomplete="off" placeholder="Date">
+                                                                    </label>                                                
+                                                                    </span>
+                                                                <span class="icon"><i class="fas fa-calendar-week"></i></span>
+                                                            </div>    
+                                                            <div class="custom-select margin-15">
+                                                                <select>   
+                                                                    <option selected>Department</option>
+                                                                    <option>Department</option>
+                                                                    <option>Department</option>
+                                                                    <option>Department</option>
+                                                                    <option>Department</option>
+                                                                </select>
+                                                            </div>  
+                                                        </div>
+                                                    </div>                                          
+                                                </form> -->
+                                                    <div class="main-btn-wrap style-02">
+                                                        <a href="https://calendly.com/shreehospitalvashi/appointment_shree_hospital" target="_blank">
+                                                        <input class="main-btn" type="submit" value="Make Appointment">
+                                                        </a>
+                                                    </div> 
                                             </div>                                              
                                         </div>                            
                                     </div>
@@ -169,12 +235,16 @@
                             </div>
                         </div>
                     </div>
+                    <!--Appointment Section End Here-->
                 </div>
             </div>
         </div>
     </div>
+    <!--// Side Form Popup End Here-->
 
+    <!--Full With Header Start Here-->
     <div class="full-width-header">
+        <!--Header Start Here-->
         <header class="header-style-3">
             <div class="container-fluid">
                 <div class="row">           
@@ -190,6 +260,7 @@
                                 <div class="responsive-mobile-menu">
                                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fortis_main_menu" 
                                         aria-expanded="false" aria-label="Toggle navigation">
+                                        <!-- <span class="navbar-toggler-icon"> </span> -->
                                         <span class="cross-menu white">
                                             <span class="bar1"></span>
                                             <span class="bar2"></span>
@@ -210,9 +281,11 @@
                             </div>
                         </nav>
 
+                        <!--Navbar area end here-->
                         <div class="search-area">    
                             <div class="openSearchBtn"> 
                                 <div class="search-icon">
+                                    <!-- <i class="flaticon-search"></i>  -->
                                 </div>   
                             </div>                        
                             <div class="open-side-menu">                       
@@ -223,19 +296,25 @@
                                 </div>                    
                             </div>             
                         </div>
+                        <!--Search area end here-->   
                     </div>                  
                 </div>
             </div>
         </header>    
+        <!--Header Area End Here-->
 
+        <!--Slider Section Start Here-->  
         <div class="home-slider slider-style-04">
             <div class="container-fluid px-0">
                 <div class="paralax-slider-area">   
                     <div class="paralax-slider-wrapper">
+
+                        
+ 
                         <div class="slider-items" style="background-image: url(https://images.pexels.com/photos/247786/pexels-photo-247786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);">
                             <div class="slider-content-area">
                                 <div class="slider-content">
-
+                                    <!-- <h1 class="slider-heading animated bounceInTop">Centre of Excellence in Surgical Care.</h1>  -->
                                     <h2 class="slider-heading animated bounceInTop"> <br>
                                         - Proctology <br>
                                         - General Surgery <br>
@@ -264,10 +343,12 @@
                         <div class="slider-items" style="background-image: url(assets/img/home-03/slider3.jpg);">
                             <div class="slider-content-area">
                                 <div class="slider-content">
+                                    <!-- <h1 class="slider-heading animated bounceInTop">Comprehensive Diabetes Care & Management</h1>     -->
                                     <h1 class="slider-heading animated bounceInTop"> <br>
                                         - Diabetes Education <br>
                                         - Lifestyle Advice <br>
                                         - Diagnostic Facilties <br>
+                                        <!-- - Individualised Treatment</h1>     -->
                                     <div class="main-btn-wrap padding-top-40">
                                         <a href="https://calendly.com/shreehospitalvashi/appointment_shree_hospital" target="_blank" class="main-btn">Make Appointement</a>        
                                     </div>
@@ -301,9 +382,12 @@
                 </div>
             </div>
         </div>
+        <!--Slider Section End Here-->   
     </div>
+    <!--// Full With Header End Here-->
 
 
+<!--Coundown Section Start Here-->
 <section class="coundown-section padding-100">
     <div class="container">
         <div class="row">
@@ -322,6 +406,7 @@
                 <div class="single-couterup">
                     <div class="icon">
                         <i class="flaticon-favorite-heart-button"></i>
+                        <!-- <i class="flaticon-rate-star-button"></i> -->
                     </div>
                     <div class="content">
                         <span class="count-num">2321</span>+
@@ -354,11 +439,15 @@
         </div>
     </div>
 </section>
+<!--Coundown Section End Here-->
 
+ <!--Main Area Start Here-->
  <main>   
     
+    <!--Service Section Start Here-->    
     <section id="service" class="service padding-100">
         <div class="container-fluid px-0">                 
+            <!-- Side form icons -->                
             <div id="service_info_item" class="side-form-icons">   
                 <i class="icon flaticon-phone-call" id="open-opening-popup"></i>
                 <i class="icon flaticon-placeholder" id="open-location-popup"></i>
@@ -366,6 +455,7 @@
             </div>                       
             <div class="container">
                 <div class="row mx-0">            
+                    <!--Service Left Column-->
                     <div class="col-lg-4 col-md-12">
                         <div class="service-left">
                             <h3 class="heading-3">Why patients choose our hospital ?</h3>
@@ -377,7 +467,9 @@
                             </div> 
                         </div>
                     </div>
+                    <!--Service Left Column End-->
                                         
+                    <!--Service Right Column-->
                     <div class="col-lg-8 col-md-12">
                         <div class="service-right">
                             <div class="row">
@@ -412,14 +504,18 @@
                             </div> 
                         </div>
                     </div>  
+                    <!--Service Right Column End-->
                 </div>
             </div>  
         </div>
     </section>    
+    <!--Service Section End Here-->
     
+    <!--Doctor Section Start Here-->        
     <section  class="our-doctor padding-top-25 padding-bottom-100">
         <div class="container">
             <div class="row">
+                <!--Common Title-->
                 <div class="col-lg-12">
                     <div class="common-title padding-bottom-40">
                         <h2 class="heading">our doctors</h2>
@@ -447,6 +543,7 @@
                                                 <a href="#" class="main-btn">Learn More</a>
                                             </div>                                                                      
                                             <div class="play-area">
+                                                <!-- video popup toggler -->  
                                                 <a href="hhttps://www.youtube.com/watch?v=hrizUL80hzU" class="hosted-popup">
                                                     <div  class="play-btn">
                                                         <i class="icon flaticon-play-button"></i> 
@@ -458,6 +555,7 @@
                                 </div> 
                             </div>                          
                         </div>
+                        <!--// Carouse Item-->
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="col-lg-6">
@@ -477,6 +575,7 @@
                                                 <a href="#" class="main-btn">Learn More</a>
                                             </div>                                                                      
                                             <div class="play-area">
+                                                <!-- video popup toggler -->  
                                                 <a href="https://www.youtube.com/watch?v=hrizUL80hzU" class="hosted-popup">
                                                     <div  class="play-btn">
                                                         <i class="icon flaticon-play-button"></i> 
@@ -488,6 +587,7 @@
                                 </div> 
                             </div>                            
                         </div>  
+                        <!--// Carouse Item-->                  
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="col-lg-6">
@@ -508,6 +608,7 @@
                                                 <a href="#" class="main-btn">Learn More</a>
                                             </div>                                                                      
                                             <div class="play-area">
+                                                <!-- video popup toggler -->  
                                                 <a href="https://www.youtube.com/watch?v=hrizUL80hzU" class="hosted-popup">
                                                     <div  class="play-btn">
                                                         <i class="icon flaticon-play-button"></i> 
@@ -520,11 +621,13 @@
                                 </div> 
                             </div>                             
                         </div>    
+                        <!--// Carouse Item-->                                                                    
                         </div>         
                     </div>                        
                 </div>                
             </div>
         </div>
+        <!--Carousel Indicators -->
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"> <i class="fas fa-chevron-left"></i> </span>
             </a>
@@ -532,11 +635,136 @@
             <span class="carousel-control-next-icon" aria-hidden="true"> <i class="fas fa-chevron-right"></i> </span>
             </a>        
     </section>    
+    <!--// Doctor Section End Here-->  
     
+ 
+
 
     <script src="https://widget.trustmary.com/S74DC1wLJ"></script>
 
+    
+    <!--Testimonials Section Start Here-->    
+    <!-- <section class="testimonial-section default-style padding-bottom-100" >
+        <div class="container-fluid">
+            <div class="row">
+                Common Title/////
+                <div class="col-lg-12">
+                    <div class="common-title padding-bottom-30">
+                        <h2 class="heading">testimonials</h2>
+                    </div>
+                </div>  
+                
+                <div class="testimonials-carousel">
+                    <div class="testimonials-carousel-controller">                        
+                        <span class="active-controller">01</span> 
+                        <span class="controller-devided">/</span>
+                        <span class="total-controller">06</span>
+                    </div>   
+                    Testimonial Thumbnail     ///            
+                    <div class="testimonial-carousel-img">
+                        <div class="carousel-items">
+                            <img src="assets/img/testimonials/carousel-1.png" alt="img">
+                        </div>                              
+                        <div class="carousel-items">
+                            <img src="assets/img/testimonials/carousel-2.png" alt="img">
+                        </div>                              
+                        <div class="carousel-items">
+                            <img src="assets/img/testimonials/carousel-3.png" alt="img">
+                        </div>                              
+                        <div class="carousel-items">
+                            <img src="assets/img/testimonials/carousel-4.png" alt="img">
+                        </div>                              
+                        <div class="carousel-items">
+                            <img src="assets/img/testimonials/carousel-5.png" alt="img">
+                        </div>                              
+                        <div class="carousel-items">
+                            <img src="assets/img/testimonials/carousel-6.png" alt="img">
+                        </div> 
+                        <div class="carousel-items">
+                            <img src="assets/img/testimonials/carousel-7.png" alt="img">
+                        </div> 
+                    </div>
+                    // Testimonial Thumbnail 
+                    <div class="testimonial-content-wrap">
+                        Testimonial Description  //
+                        <div class="testimonial-carousel-content">
+                            <div class="carousel-items">
+                                <div class="content">
+                                    <h4 class="heading-4">Aaliya Reeza</h4>
+                                    <h6 class="heading-6">Heart Patient</h6>
+                                    <div class="padding-top-20 padding-bottom-30">
+                                        <p> “Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. dicam singulis qualisque ut, delicata qualisque ei eum.”</p>
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-items">
+                                <div class="content">
+                                    <h4 class="heading-4">Jennifer J. Bordner</h4>
+                                    <h6 class="heading-6">Dental Patient</h6>
+                                    <div class="padding-top-20 padding-bottom-30">
+                                        <p> “Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. dicam singulis qualisque ut, delicata qualisque ei eum.”</p>
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-items">
+                                <div class="content">
+                                    <h4 class="heading-4">Rhonda R. Tatum</h4>
+                                    <h6 class="heading-6">Cardio Patient</h6>
+                                    <div class="padding-top-20 padding-bottom-30">
+                                        <p> “Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. dicam singulis qualisque ut, delicata qualisque ei eum.”</p>
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-items">
+                                <div class="content">
+                                    <h4 class="heading-4">Edna C. Sadler</h4>
+                                    <h6 class="heading-6">Neurologie Patient</h6>
+                                    <div class="padding-top-20 padding-bottom-30">
+                                        <p> “Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. dicam singulis qualisque ut, delicata qualisque ei eum.”</p>
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-items">
+                                <div class="content">
+                                    <h4 class="heading-4">Whitney P. Cruse</h4>
+                                    <h6 class="heading-6">Orthopedy Patient</h6>
+                                    <div class="padding-top-20 padding-bottom-30">
+                                        <p> “Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. dicam singulis qualisque ut, delicata qualisque ei eum.”</p>
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-items">
+                                <div class="content">
+                                    <h4 class="heading-4">Amber D. Ma</h4>
+                                    <h6 class="heading-6">surgically Patient</h6>
+                                    <div class="padding-top-20 padding-bottom-30">
+                                        <p> “Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. dicam singulis qualisque ut, delicata qualisque ei eum.”</p>
+                                    </div> 
+                                </div> 
+                            </div> 
+                            <div class="carousel-items">
+                                <div class="content">
+                                    <h4 class="heading-4">Eva H. Magee</h4>
+                                    <h6 class="heading-6">Cardiology Patient </h6>
+                                    <div class="padding-top-20 padding-bottom-30">
+                                        <p> “Lorem ipsum dolor sit amet, ad vix fuisset assentior. Vim dicit lobortis molestiae no, maiorum postulant has ex. dicam singulis qualisque ut, delicata qualisque ei eum.”</p>
+                                    </div> 
+                                </div> 
+                            </div>                  
+                        </div>
+                        // Testimonial Description End
+                        
+                        Testimonial Arrow//
+                        <div class="testimonial-arrow"></div>
+                    </div>                    
+                </div>                
+            </div>
+        </div>
+    </section>     -->
+    <!--Testimonials Section End Here-->
 
+
+    <!--Statistics Section Start Here-->
     <section class="statistics-section">
         <div class="container">
                 <div class="row">
@@ -578,21 +806,243 @@
                 </div>
         </div>
     </section>
+    <!--Statistics Section End Here-->
     
+    <!--Appointment Section Start Here-->
+    <!-- <section class="appointment-section padding-top-80 padding-bottom-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    // Commen Title
+                    <div class="common-title padding-bottom-50">
+                        <h2 class="heading">Make an appointment</h2>
+                    </div>
+                </div>                    
+                <div class="col-lg-12 col-md-12 px-4">
+                    <div class="appointment-content">   
+                        <div class="tab-content">
+                                <div class="appointment-img-area"> 
+                                    <img src="https://www.shreehospitalnavimumbai.com/images/drgirish.jpg" alt="img">          
+                                    <div class="doctor-info">
+                                        <div class="name">
+                                            <h6 class="heading-06">DR. GIRISH MOHARIR</h6>
+                                        </div>
+                                        <div class="designation">
+                                            <span>General & Laparoscopic Surgeon</span>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="appointment-form-area"> 
+                                    <form>
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <input type="text" name="your_name" placeholder="Your Name" class="form-control margin-15">
+                                            <input type="email" name="your_email" placeholder="Your Email" class="form-control margin-15">                                            
+                                            <div class="custom-select margin-15">
+                                                <select>
+                                                    <option>Doctor Name</option>
+                                                    <option>Doctor Name</option>
+                                                    <option>Doctor Name</option>
+                                                    <option>Doctor Name</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="custom-select margin-15">
+                                                <select>   
+                                                    <option selected>Your Gender</option>
+                                                    <option>Male</option>
+                                                    <option>Female</option>
+                                                </select> 
+                                            </div>                                                
+                                            <div class="calendar-icon margin-15">
+                                                <span class="calendar">
+                                                    <label for="datepicker2">
+                                                        <input type="text" id="datepicker2" class="form-control" autocomplete="off" placeholder="Date">
+                                                    </label>                                                
+                                                    </span>
+                                                <span class="icon"><i class="fas fa-calendar-week"></i></span>
+                                            </div>    
+                                            <div class="custom-select margin-15">
+                                                <select>   
+                                                    <option selected>Department</option>
+                                                    <option>Department</option>
+                                                    <option>Department</option>
+                                                    <option>Department</option>
+                                                    <option>Department</option>
+                                                </select>
+                                            </div>  
+                                        </div>
+                                    </div>                                          
+                                    <div class="main-btn-wrap style-02">
+                                        <a target="_blank" href="https://calendly.com/shreehospitalvashi/appointment_shree_hospital"> 
+                                            <input class="main-btn" type="submit" value="Make Appointment">
+                                        </a>
+                                    </div> 
+                                    </form>
+                                    // Form End
+                                </div>
+                        </div>  
+                    </div>
+                </div>                    
+            </div>
+        </div>
+    </section> -->
+    <!--Appointment Section End Here-->
 
+    
+    <!--Our Latest Stories Start Here-->
+    <!-- <section class="latest-stories padding-95">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="carousel-right-area">
+                    <div class="col-lg-12">
+                    Commen Title
+                        <div class="common-title padding-bottom-40">
+                            <h2 class="heading line-left">Our latest storiest</h2>
+                        </div>
+                    </div>                
+                    <div class="col-lg-12">                           
+                        <div class="storiest-carousel">                               
+                            <div class="item">
+                                <div class="carousel-img">
+                                    <img src="assets/img/06.png" alt="img">
+                                </div>                                  
+                                <div class="catousel-content"> 
+                                <div class="hover-icon">
+                                    <a href="blog.html">                                        
+                                        <span class="icon">
+                                            <i class="flaticon-add-plus-button"></i>
+                                        </span>   
+                                    </a>
+                                </div>
+                                <div class="stories-text">
+                                        <div class="date">1st May 2018</div>
+                                        <div class="text"> <h6 class="heading-06">Discovering New Genes That Can In </h6> </div>
+                                    </div> 
+                                </div> 
+                            </div>  
+                            // Carousel Item                          
+                            <div class="item">
+                                <div class="carousel-img">
+                                    <img src="assets/img/05.png" alt="img">
+                                </div>
+                                <div class="catousel-content"> 
+                                    <div class="hover-icon">
+                                    <a href="blog.html">                                        
+                                        <span class="icon">
+                                            <i class="flaticon-add-plus-button"></i>
+                                        </span>   
+                                    </a>
+                                    </div>
+                                    <div class="stories-text">
+                                        <div class="date">1st May 2018</div>
+                                        <div class="text"> <h6 class="heading-06">Be at miss or each good play home</h6> </div>
+                                    </div>  
+                                </div>
+                            </div>    
+                                // Carousel Item                        
+                            <div class="item">
+                                <div class="carousel-img">
+                                    <img src="assets/img/07.png" alt="img">
+                                </div>
+                                <div class="catousel-content"> 
+                                <div class="hover-icon">
+                                    <a href="blog.html">                                        
+                                        <span class="icon">
+                                            <i class="flaticon-add-plus-button"></i>
+                                        </span>   
+                                    </a>
+                                </div>
+                                    <div class="stories-text">
+                                        <div class="date">1st May 2018</div>
+                                        <div class="text"> <h6 class="heading-06">She son lose does fond bred gave lady get</h6> </div>
+                                    </div>  
+                                </div>
+                            </div>    
+                                // Carousel Item                        
+                            <div class="item">
+                                <div class="carousel-img">
+                                    <img src="assets/img/08.png" alt="img">
+                                </div>
+                                <div class="catousel-content"> 
+                                    <div class="hover-icon">
+                                        <a href="blog.html">                                        
+                                        <span class="icon">
+                                            <i class="flaticon-add-plus-button"></i>
+                                        </span>   
+                                    </a>
+                                    </div>
+                                    <div class="stories-text">
+                                        <div class="date">1st May 2018</div>
+                                        <div class="text"> <h6 class="heading-06">Make your business grow as well as</h6> </div>
+                                    </div>  
+                                </div>
+                            </div> 
+                                // Carousel Item                         
+                            <div class="item">
+                                <div class="carousel-img">
+                                    <img src="assets/img/06.png" alt="img">
+                                </div>
+                                <div class="catousel-content">
+                                    <div class="hover-icon">
+                                    <a href="blog.html">                                        
+                                        <span class="icon">
+                                            <i class="flaticon-add-plus-button"></i>
+                                        </span>   
+                                    </a>
+                                    </div> 
+                                    <div class="stories-text">
+                                        <div class="date">1st May 2018</div>
+                                        <div class="text"> <h6 class="heading-06">Financial support for none business</h6> </div>
+                                    </div>  
+                                </div>
+                            </div>     
+                                // Carousel Item                     
+                            <div class="item">
+                                <div class="carousel-img">
+                                    <img src="assets/img/05.png" alt="img">
+                                </div>
+                                <div class="catousel-content"> 
+                                    <div class="hover-icon">
+                                    <a href="blog.html">                                        
+                                        <span class="icon">
+                                            <i class="flaticon-add-plus-button"></i>
+                                        </span>   
+                                    </a>
+                                    </div>
+                                    <div class="stories-text">
+                                        <div class="date">1st May 2018</div>
+                                        <div class="text"> <h6 class="heading-06">Discovering New Genes That Can In Cancer Treatment</h6> </div>
+                                    </div>  
+                                </div>
+                            </div>
+                            // Carousel Item
+                        </div>
+                    </div>
+                </div>
+            </div>      
+        </div>
+    </section> -->
+    <!--Our Latest Stories End Here-->
+    
+    <!--Google Map -->
     <div class="google-map-section">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 px-0">             
+                    <!-- <div id="google-map"></div>-->
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.789666783396!2d72.99575237495182!3d19.07298318213096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c14a0e9d6b01%3A0xd9e37d8f5d0ef01d!2sShree%20Hospital%20and%20ICU%2C%20Vashi%2C%20Navi%20Mumbai!5e0!3m2!1sen!2sin!4v1688390664996!5m2!1sen!2sin"  style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
+    <!--// Google Map End-->    
         
 </main>
+<!--Main Area End Here-->
 
-
+<!-- footer area start -->
 <footer class="footer-area">
     <div class="footer-top">
         <div class="container-fluid">
@@ -676,28 +1126,51 @@
         </div>
     </div>
 </footer>
+<!-- footer area end -->
 
 
+<!-- back to top area start -->
 <div class="back-to-top">
     <span class="back-top"><i class="flaticon-up-arrow"></i></span>
 </div>
+<!-- back to top area end -->
+
+        
 
 
+
+<!--Jquery-->
 <script src="assets/js/jquery-3.4.1.min.js"></script>
+<!--Jquery Migrate-->
 <script src="assets/js/jquery-migrate.min.js"></script> 
+<!--Jquery UI-->
 <script src="assets/js/jquery-ui.js"></script>   
+<!-- bootstrap -->
 <script src="assets/js/bootstrap.min.js"></script>
+<!--Waypoints-->
 <script src="assets/js/waypoints.min.js"></script>
+<!--Slick Carousel-->
 <script src="assets/js/slick.min.js"></script>
+<!-- wow -->
 <script src="assets/js/wow.min.js"></script>
+<!--Custom Select Box-->
 <script src="assets/js/selectbox.min.js"></script>
+<!--Custom Video Popup-->
 <script src="assets/js/jquery.rPopup.js"></script>
-<script src="assets/js/jQuery.rProgressbar.min.js"></script>
+ <!--rProgress bar-->
+ <script src="assets/js/jQuery.rProgressbar.min.js"></script>
+<!-- countdown -->
 <script src="assets/js/jquery.countdown.min.js"></script> 
+<!--Counter--> 
 <script src="assets/js/jQuery.rcounter.js"></script>
+<!--Google Map API-->
+<!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCVyNXoXHkqAwBKJaouZWhHPCP5vg7N0HQ&callback=initMap" async defer></script> -->
+<!-- google map activate js -->
 <script src="assets/js/goolg-map-activate.js"></script>
+<!-- imageloaded -->
 <script src="assets/js/imagesloaded.pkgd.min.js"></script>
 <script src="assets/js/isotope.pkgd.min.js"></script>
+<!-- main js -->
 <script src="assets/js/main.js"></script>
     
 </body>
