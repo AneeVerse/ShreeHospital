@@ -1,8 +1,10 @@
 # ShreeHospital
 
-[GitHub Page]([url](https://github.com/AneeVerse/ShreeHospital/blob/main/README.md))
+**GitHub Page**
+[https://github.com/AneeVerse/ShreeHospital]([url](https://github.com/AneeVerse/ShreeHospital/))
 
-[(ShreeHospital)]([url](https://aneeverse.github.io/ShreeHospital/)) https://aneeverse.github.io/ShreeHospital/
+**GitHub Host**
+[https://aneeverse.github.io/ShreeHospital/]([url](https://aneeverse.github.io/ShreeHospital/)) 
 
 **Hosted On** 
-[shreehospitalvashi.com]([url](https://shreehospitalvashi.com/)) https://shreehospitalvashi.com/
+[https://shreehospitalvashi.com/]([url](https://shreehospitalvashi.com/)) 
